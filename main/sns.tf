@@ -7,3 +7,4 @@
 resource "aws_sns_topic" "beekeeper_ops_sns" {
   name = "${local.instance_alias}-operational-events"
 }
+

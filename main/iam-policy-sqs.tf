@@ -23,4 +23,6 @@ resource "aws_iam_policy" "beekeeper_sqs" {
     ]
 }
 EOF
+
 }
+

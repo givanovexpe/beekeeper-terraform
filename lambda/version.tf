@@ -7,4 +7,3 @@ terraform {
     random = ">= 2.2"
   }
 }
-

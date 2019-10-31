@@ -5,5 +5,6 @@
  */
 
 locals {
-  instance_alias = "${ var.instance_name == "" ? "beekeeper" : format("beekeeper-%s",var.instance_name) }"
+  instance_alias = var.instance_name == "" ? "beekeeper" : format("beekeeper-%s", var.instance_name)
 }
+
